@@ -1,4 +1,6 @@
 import "../styles/styles.css";
+import "@picocss/pico/css/pico.min.css";
+import * as THREE from 'three';
 // Add imports here
 
 console.log("What?");
