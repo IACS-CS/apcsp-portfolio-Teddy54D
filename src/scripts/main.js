@@ -1,10 +1,11 @@
 import "../styles/styles.css";
-import "@picocss/pico/css/pico.min.css";
 //import particlesJS from 'particles.js';
 // Add imports here
 
 console.log("What?");
 console.log("Hello world, from main.js!");
+
+
 
 if (typeof window !== 'undefined') {
   // Put code that runs ONLY in the browser here -- this is most likely where

@@ -14,7 +14,7 @@
   "dependencies": {
     "@picocss/pico": "^2.0.6",
     "astro": "^4.15.9",
-    "particles.js": "^2.0.0",
+    "particlesjs": "^2.2.3",
     "three": "^0.169.0"
   }
 }
