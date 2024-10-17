@@ -1,25 +1,54 @@
 ---
+import NavItem from "../components/NavItem.astro";
 import Page from "../components/Page.astro";
 ---
 
-
-<Page title="Teddy's Portfolio">  
-  <h1>
-    Teddy's Portfolio
-  </h1>
+<Page title="Teddy's Portfolio">
+  <h1>Teddy's Portfolio</h1>
   <h2>Project Menu</h2>
   <nav>
     <ul>
-      <li>
-        <a href="./projects/binary-search/"> 
-          Binary Search Project 
-        </a>
-      </li>
-      <!-- More projects to come soon! -->
+      <NavItem
+        title="Binary Search Project"
+        link="/projects/binary-search/"
+        imageSrc="/images/binary-search.png"
+        blurb="Learn about the binary search algorithm and its implementation."
+      />
+
+      <NavItem
+        title="APCSP Portfolio"
+        link="/projects/portfolio/"
+        imageSrc="/images/portfolio.jpeg"
+        blurb="A showcase of all my AP Computer Science Principles projects."
+      />
+
+      <!-- Add more projects here in the future -->
     </ul>
   </nav>
   <h2>About Me</h2>
-  <p>All About me...</p>
+  <p>
+    My name is Teddy Darlington and I am a junior at Innovation Academy Charter
+    School
+  </p>
+  <p <span property="dct:title">APCSP portfolio</p> by <span
+    property="cc:attributionName">Teddy Darlington</span
+  > is licensed under <a
+    href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1"
+    target="_blank"
+    rel="license noopener noreferrer"
+    style="display:inline-block;"
+    >CC BY-NC 4.0<img
+      style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+      src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+      alt=""
+    /><img
+      style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+      src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+      alt=""
+    /><img
+      style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+      src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+      alt=""
+    /></a
+  >
 </Page>
-
-
